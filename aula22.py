@@ -11,7 +11,7 @@ password_entered = input("Password: ")
 
 password_allowed = "12345"
 
-if Enter == "L" and password_entered == password_allowed:
+if (Enter == "L" or Enter == "l") and password_entered == password_allowed:
     print("Logged")
 else:
     print("Out")
@@ -19,3 +19,6 @@ else:
 # Short circuit assessment
 print(True and True and True)
 print(True and 0 and True)
+
+password = input("Password: ") or "No Password"
+print(password)
