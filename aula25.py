@@ -1,9 +1,10 @@
-# Basic String Interpolation
-# s - string
-# d e i - int
-# f - float
-# x and X - Hexadecimal (ABCDEF0123456789)
-# """
+"""
+Basic String Interpolation
+s - string
+d e i - int
+f - float
+x and X - Hexadecimal (ABCDEF0123456789)
+"""
 
 name = "Luiz"
 price = 1000.95897643
