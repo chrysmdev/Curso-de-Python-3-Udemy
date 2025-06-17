@@ -11,6 +11,7 @@ try:
         print(f"Your number ({num}) is even.")
     else:
         print(f"Your number ({num}) is odd")
+
 except ValueError:
     print("Error!! check if the entered value is an integer.")
 
@@ -47,11 +48,12 @@ try:
     user_name = input("What is your name? ")
     num_name_letter = int(len(user_name))
 
-    if num_name_letter <= 4:
+    if num_name_letter >= 1 and num_name_letter <= 4:
         print("Your name is SHORT.")
     elif num_name_letter <= 6:
         print("Your name is NORMAL.")
-    elif num_name_letter > 6:
+    else:
         print("Your name is VERY LONG.")
+
 except:
     print("Something went wrong!")
