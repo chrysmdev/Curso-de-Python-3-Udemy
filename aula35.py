@@ -9,7 +9,7 @@ counter = 0
 
 while counter <= 10:
     print(f"your counter is {counter}")
-    counter += 1
+    counter = counter + 1
 
 print(f"Your counter now is {counter}")
 print("out")
